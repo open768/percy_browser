@@ -1,0 +1,1 @@
+uses the perseverance rss feed to build a crowd platform for citizen science analysis of images from the rover
