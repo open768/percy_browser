@@ -1,0 +1,9 @@
+*.old
+*secret*
+\[cache\]/
+\[objdata\]/
+\[tools\]/
+\[sessions\]/
+\[backup\]/
+php/phpinfo.php
+*.db
