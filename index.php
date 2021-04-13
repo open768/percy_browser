@@ -1,7 +1,8 @@
 <?php
 	$root=realpath(".");
 	require_once("$root/php/common.php");
-	
+	$jsinc = "../jsinc";
+
 	$sSol = cHeader::get("sol");
 	$sInstr = cHeader::get("sol");
 	
@@ -15,5 +16,11 @@
 	}else{
 		cDebug::write("TBD show list of sols");
 	}
-	
+	require_once("$root/php/fragments/header.php");
+?>
+	<script type="text/javascript" src="js/widgets/solinstrchooser.js"></script>
+	<script type="text/javascript" src="js/pages/index.js"></script>
+	<div id="chooser">Loading</div>
+<?php
+	require_once("$root/php/fragments/footer.php");
 ?>
